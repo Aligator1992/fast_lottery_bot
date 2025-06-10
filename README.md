@@ -1,1 +1,2 @@
-# fast_lottery_bot
+# Fast Lottery Bot
+Цей бот створено для проведення швидкої лотереї у Telegram.
