@@ -1,0 +1,14 @@
+import os
+from aiogram import Bot, Dispatcher, types
+from aiogram.utils import executor
+
+# Зчитуємо токен з середовища
+BOT_TOKEN = 8033402835:AAGGPJRt3-eBKcCUgLv-a3puJCUGK3lkNVA
+
+if not BOT_TOKEN:
+    raise Exception 8033402835:AAGGPJRt3-eBKcCUgLv-a3puJCUGK3lkNVA
+
+bot = Bot(token=BOT_TOKEN)
+dp = Dispatcher(bot)
+
+# Далі йде твій код (хендлери, логіка гри, запуск бота тощо)
